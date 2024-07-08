@@ -1,0 +1,34 @@
+.cast-details {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.cast-details h2 {
+  margin-bottom: 20px;
+}
+
+.cast-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cast-details li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.cast-details p {
+  width: 110px;
+}
+
+.cast-details .cast-img {
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+.home-bg {
+  padding-top: 25px;
+  background-color: #000000;
+  font-family: "montserrat";
+  padding-bottom: 50px;
+}
+.movie-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 50px;
+  color: #fff;
+}
+.movie-img {
+  height: 300px;
+  width: 300px;
+}
+.title {
+  font-size: 18px;
+}
+.desc {
+  width: 300px;
+  font-size: 14px;
+}
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.rating {
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.pagination button:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}

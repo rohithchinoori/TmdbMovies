@@ -1,0 +1,39 @@
+.detail-bg {
+  background-color: #636060;
+  padding: 5px;
+  color: #fff;
+}
+.card {
+  background-color: #000000;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "montserrat";
+  margin: 10px;
+}
+.detail-title {
+  color: #fff;
+}
+.detail-over {
+  color: #fff;
+}
+.sumary {
+  display: flex;
+  color: #fff;
+  gap: 20px;
+}
+.poster {
+  height: 200px;
+}
+.detail-rating {
+  color: #36b4c2;
+}
+.poster1 {
+  width: 500px;
+  height: 300px;
+}
+.over-view {
+  color: #fff;
+  width: 600px;
+}
